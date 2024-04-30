@@ -1,0 +1,21 @@
+//Basic styles
+@import "bootstrap/bootstrap.scss";
+@import "modules/vars.scss";
+@import "modules/mixins.scss";
+@import "modules/fonts.scss";
+@import "modules/reset-style.scss";
+
+//Scripts styles
+@import "modules/animation.min.scss";
+@import "modules/swiper.min.scss";
+
+//Elements styles
+@import "header.scss";
+@import "footer.scss";
+
+//Pages styles
+@import "styles.scss";
+@import "home.scss";
+
+//Buttons styles
+// @import "modules/btn.scss";

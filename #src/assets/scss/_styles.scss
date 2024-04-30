@@ -1,0 +1,103 @@
+body.lock {
+   overflow: hidden;
+}
+//!<WRAPPER>
+.page-wrapper {
+   @include flexbox();
+   flex-direction: column;
+   width: 100%;
+   min-height: 100vh;
+   overflow: hidden;
+   position: relative;
+   &.loaded {
+   }
+}
+//!</WRAPPER>
+
+//!<MAIN GRID>
+.page-container {
+   max-width: $mw + px;
+   margin: 0 auto;
+   width: 100%;
+   height: 100%;
+   @media (max-width: 1220px) {
+      max-width: none;
+      padding: 0 20px;
+   }
+   // @media (max-width: 768px) {
+   //    max-width: none;
+   //    padding: 0 10px;
+   // }
+}
+.page-indent {
+   position: relative;
+   padding: 100px 0 0 0;
+   transition: all 0.3s ease 0s;
+   @media (max-width: 768px) {
+      padding: 80px 0 0 0;
+   }
+   @media (max-width: 600px) {
+      padding: 70px 0 0 0;
+   }
+}
+//!</MAIN GRID>
+.check-label {
+   cursor: pointer;
+   @include flexbox();
+   align-items: center;
+   input[type="radio"] {
+      display: none;
+   }
+   input[type="radio"]:checked + .fake-check:before {
+      opacity: 1;
+      transition: all 0.3s linear;
+   }
+   input[type="checkbox"] {
+      display: none;
+   }
+   input[type="checkbox"]:checked + .fake-check:before {
+      opacity: 1;
+      transition: all 0.3s linear;
+   }
+   .fake-check {
+      position: relative;
+      display: block;
+      min-width: 20px;
+      width: 20px;
+      min-height: 20px;
+      height: 20px;
+      background: rgba(222, 228, 232, 0.5);
+      &:before {
+         content: "";
+         display: block;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         width: 10px;
+         height: 10px;
+         transform: translate(-50%, -50%);
+         opacity: 0;
+         background-color: $color-black;
+      }
+   }
+   .check-text {
+      padding-left: 10px;
+      word-break: break-word;
+   }
+}
+
+//!BTN-SCROLL-TO-TOP
+.show-scroll {
+   opacity: 1 !important;
+   visibility: visible !important;
+   transition: all 1s ease 0s;
+}
+.show-scroll._lock {
+   position: absolute !important;
+}
+
+//!INDEX STYLES
+.sprite {
+   width: 24px;
+   height: 24px;
+}

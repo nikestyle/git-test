@@ -1,0 +1,160 @@
+
+//---DMMono-Italic---
+@font-face{
+	font-family: "DMMono-Italic";
+	font-display: swap;
+	src: url("../fonts/DMMono-Italic.woff2") format("woff2"), url("../fonts/DMMono-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmmono-italic:"DMMono-Italic";
+
+//---DMMono-Light---
+@font-face{
+	font-family: "DMMono-Light";
+	font-display: swap;
+	src: url("../fonts/DMMono-Light.woff2") format("woff2"), url("../fonts/DMMono-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+$dmmono-light:"DMMono-Light";
+
+//---DMMono-LightItalic---
+@font-face{
+	font-family: "DMMono-LightItalic";
+	font-display: swap;
+	src: url("../fonts/DMMono-LightItalic.woff2") format("woff2"), url("../fonts/DMMono-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmmono-lightitalic:"DMMono-LightItalic";
+
+//---DMMono-Regular---
+@font-face{
+	font-family: "DMMono-Regular";
+	font-display: swap;
+	src: url("../fonts/DMMono-Regular.woff2") format("woff2"), url("../fonts/DMMono-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmmono-regular:"DMMono-Regular";
+
+//---DMMono-MediumItalic---
+@font-face{
+	font-family: "DMMono-MediumItalic";
+	font-display: swap;
+	src: url("../fonts/DMMono-MediumItalic.woff2") format("woff2"), url("../fonts/DMMono-MediumItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmmono-mediumitalic:"DMMono-MediumItalic";
+
+//---DMMono-Medium---
+@font-face{
+	font-family: "DMMono-Medium";
+	font-display: swap;
+	src: url("../fonts/DMMono-Medium.woff2") format("woff2"), url("../fonts/DMMono-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+$dmmono-medium:"DMMono-Medium";
+
+//---DMSans-BoldItalic---
+@font-face{
+	font-family: "DMSans-BoldItalic";
+	font-display: swap;
+	src: url("../fonts/DMSans-BoldItalic.woff2") format("woff2"), url("../fonts/DMSans-BoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmsans-bolditalic:"DMSans-BoldItalic";
+
+//---DMSans-Italic---
+@font-face{
+	font-family: "DMSans-Italic";
+	font-display: swap;
+	src: url("../fonts/DMSans-Italic.woff2") format("woff2"), url("../fonts/DMSans-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmsans-italic:"DMSans-Italic";
+
+//---DMSans-Medium---
+@font-face{
+	font-family: "DMSans-Medium";
+	font-display: swap;
+	src: url("../fonts/DMSans-Medium.woff2") format("woff2"), url("../fonts/DMSans-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+$dmsans-medium:"DMSans-Medium";
+
+//---DMSans-MediumItalic---
+@font-face{
+	font-family: "DMSans-MediumItalic";
+	font-display: swap;
+	src: url("../fonts/DMSans-MediumItalic.woff2") format("woff2"), url("../fonts/DMSans-MediumItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmsans-mediumitalic:"DMSans-MediumItalic";
+
+//---Roboto-Bold---
+@font-face{
+	font-family: "Roboto-Bold";
+	font-display: swap;
+	src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+$roboto-bold:"Roboto-Bold";
+
+//---Roboto-Light---
+@font-face{
+	font-family: "Roboto-Light";
+	font-display: swap;
+	src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+$roboto-light:"Roboto-Light";
+
+//---DMSans-Regular---
+@font-face{
+	font-family: "DMSans-Regular";
+	font-display: swap;
+	src: url("../fonts/DMSans-Regular.woff2") format("woff2"), url("../fonts/DMSans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$dmsans-regular:"DMSans-Regular";
+
+//---Roboto-Regular---
+@font-face{
+	font-family: "Roboto-Regular";
+	font-display: swap;
+	src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+$roboto-regular:"Roboto-Regular";
+
+//---Roboto-Medium---
+@font-face{
+	font-family: "Roboto-Medium";
+	font-display: swap;
+	src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+$roboto-medium:"Roboto-Medium";
+
+//---DMSans-Bold---
+@font-face{
+	font-family: "DMSans-Bold";
+	font-display: swap;
+	src: url("../fonts/DMSans-Bold.woff2") format("woff2"), url("../fonts/DMSans-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+$dmsans-bold:"DMSans-Bold";

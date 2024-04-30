@@ -1,0 +1,197 @@
+.btn {
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+   box-shadow: none;
+   background: none;
+   border-radius: 0;
+   color: inherit;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;
+   cursor: pointer;
+   text-align: center;
+   white-space: nowrap; //!
+   transition: all 0.3s ease-in-out;
+   text-transform: uppercase;
+   // color: $black;
+}
+//?============COLOR-BTN=================
+.btn--green {
+   background-color: $color-green;
+   &:visited {
+      color: $white;
+   }
+   &:hover {
+      background-color: $color-green;
+   }
+}
+.btn--green.btn--round {
+   background-color: unset;
+   // border: 2px solid $color-green;
+   color: $color-green;
+   &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+      border: 1px solid $color-green;
+      transition: all 0.3s ease 0s;
+   }
+   &:hover {
+      &:before {
+         opacity: 0;
+         visibility: hidden;
+      }
+      color: $white;
+      background: $color-green-filter;
+   }
+}
+.btn--yellow {
+   font-family: $roboto-bold;
+   font-size: 12px;
+   background-color: $color-yellow;
+   &:visited {
+      color: $white;
+   }
+   &:hover {
+      background-color: $color-yellow;
+   }
+}
+.btn--red {
+   font-size: 12px;
+   background-color: $color-red;
+   &:hover {
+      background-color: $color-red;
+   }
+}
+.btn--blue {
+   font-size: 12px;
+   color: $white;
+   background-color: $color-blue;
+   &:visited {
+      color: $white;
+   }
+   &:hover {
+      background-color: #3163b4;
+   }
+}
+.btn--light-blue {
+   color: $color-blue;
+   background-color: $color-blue;
+   &:visited {
+      color: $color-blue;
+   }
+   &:hover {
+      color: $white;
+      background-color: $color-blue;
+   }
+}
+
+.btn--black {
+   font-size: 12px;
+   position: relative;
+   border: 3px solid $color-black;
+   color: $white;
+   background-color: $color-black;
+   &:hover {
+      border: 3px solid $color-black;
+      background-color: $color-black;
+      // color: $color-black-4 !important;
+      // background-color: transparent;
+      // animation: pulse 0.5s;
+      // box-shadow: 0 0 0 7px rgba(#fff, 0);
+   }
+   &:visited {
+      color: $white;
+   }
+   // @keyframes pulse {
+   //    0% {
+   //       box-shadow: 0 0 0 0 $color-black-4;
+   //    }
+   // }
+}
+
+//?===============BTN-PROPERTIES==================
+.btn--short {
+   height: 35px;
+}
+.btn--tall {
+   height: 40px;
+}
+.btn--small {
+   padding: 0 30px;
+   // min-width: 260px;
+   @media (max-width: 470px) {
+      padding: 0 15px;
+   }
+}
+.btn--big {
+   width: 100%;
+   padding: 0 10px;
+}
+.btn--round {
+   border-radius: 30px;
+}
+.btn--uppercase {
+   text-transform: uppercase;
+   letter-spacing: 0.6px;
+}
+.btn--link {
+   @include flexbox();
+   justify-content: center;
+   align-items: center;
+   width: fit-content;
+}
+
+//?===========CUSTOM-BTN=================
+.btn-close-alarm {
+   &:hover {
+      opacity: 0.5;
+   }
+}
+.btn-more {
+   &:hover {
+      text-decoration: underline;
+   }
+}
+.btn-head-login {
+   @media (max-width: 600px) {
+      display: none;
+   }
+}
+.btn-head-start {
+}
+
+.btn-older-posts {
+   min-width: 260px;
+   @media (max-width: 470px) {
+      min-width: 100%;
+   }
+}
+
+.btn-sign {
+   width: 100%;
+   color: $color-green;
+   border: 1px solid $color-green;
+   @media (min-width: 769px) {
+      &:hover {
+         color: $white;
+         background: $color-green-filter;
+      }
+   }
+   @media (max-width: 768px) {
+      &:hover {
+         border: unset;
+         color: $white;
+         background: $color-orange;
+      }
+   }
+}
